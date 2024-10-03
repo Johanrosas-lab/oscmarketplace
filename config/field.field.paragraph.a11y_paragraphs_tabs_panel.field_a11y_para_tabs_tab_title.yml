@@ -1,0 +1,23 @@
+uuid: 3b30d4e7-4319-4b5e-87c5-6175f1d68109
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_a11y_para_tabs_tab_title
+    - paragraphs.paragraphs_type.a11y_paragraphs_tabs_panel
+  module:
+    - text
+_core:
+  default_config_hash: pWhWxDhhA9DFD9CCEpZML2qEzr6uHttNBE78cTBibPI
+id: paragraph.a11y_paragraphs_tabs_panel.field_a11y_para_tabs_tab_title
+field_name: field_a11y_para_tabs_tab_title
+entity_type: paragraph
+bundle: a11y_paragraphs_tabs_panel
+label: 'Tab Title'
+description: 'Add a title for the Tab.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

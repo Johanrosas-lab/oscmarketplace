@@ -1,0 +1,10 @@
+uuid: aa8d9fd4-8526-4e77-a57a-c31def92542b
+langcode: en
+status: true
+dependencies: {  }
+id: icon_image_item
+label: 'Icon image item'
+icon_uuid: null
+icon_default: null
+description: 'Adds individual icon image items'
+behavior_plugins: {  }

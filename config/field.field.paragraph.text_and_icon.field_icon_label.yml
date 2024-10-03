@@ -1,0 +1,19 @@
+uuid: 6182ea52-d729-4d1c-80e6-162df5493dce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon_label
+    - paragraphs.paragraphs_type.text_and_icon
+id: paragraph.text_and_icon.field_icon_label
+field_name: field_icon_label
+entity_type: paragraph
+bundle: text_and_icon
+label: 'Icon label'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

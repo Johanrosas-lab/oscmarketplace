@@ -1,0 +1,38 @@
+uuid: dd1e9a3b-f4ce-4f1e-945b-d029a4d17527
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tech_logo
+    - paragraphs.paragraphs_type.technologies_item
+  module:
+    - image
+id: paragraph.technologies_item.field_tech_logo
+field_name: field_tech_logo
+entity_type: paragraph
+bundle: technologies_item
+label: 'Tech logo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'svg png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

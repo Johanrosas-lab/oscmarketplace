@@ -1,0 +1,21 @@
+uuid: 10e7a2ff-7669-4929-a19f-3e8e3c997662
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading
+    - paragraphs.paragraphs_type.technologies
+  module:
+    - text
+id: paragraph.technologies.field_heading
+field_name: field_heading
+entity_type: paragraph
+bundle: technologies
+label: Heading
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

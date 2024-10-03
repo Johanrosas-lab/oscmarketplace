@@ -1,0 +1,42 @@
+uuid: 2c3beab7-5238-4854-815e-77f2c5aac36b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.our_team_container.field_our_team_items_wrapper
+    - field.field.paragraph.our_team_container.field_our_team_label
+    - field.field.paragraph.our_team_container.field_our_team_subheading
+    - paragraphs.paragraphs_type.our_team_container
+  module:
+    - entity_reference_revisions
+id: paragraph.our_team_container.default
+targetEntityType: paragraph
+bundle: our_team_container
+mode: default
+content:
+  field_our_team_items_wrapper:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_our_team_label:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_our_team_subheading:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

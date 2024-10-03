@@ -1,0 +1,19 @@
+uuid: 81430060-14f2-44f5-8a02-31a3806fa278
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_position
+    - paragraphs.paragraphs_type.quote_section
+id: paragraph.quote_section.field_position
+field_name: field_position
+entity_type: paragraph
+bundle: quote_section
+label: Position
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,52 @@
+uuid: bfa547bd-3973-4bda-bfd3-8490ef552130
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_and_image_basic.field_image_layout
+    - field.field.paragraph.text_and_image_basic.field_layout_adjustment
+    - field.field.paragraph.text_and_image_basic.field_text_label
+    - field.field.paragraph.text_and_image_basic.field_text_layout
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.text_and_image_basic
+  module:
+    - svg_image
+    - text
+id: paragraph.text_and_image_basic.default
+targetEntityType: paragraph
+bundle: text_and_image_basic
+mode: default
+content:
+  field_image_layout:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_layout_adjustment:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_text_label:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_text_layout:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

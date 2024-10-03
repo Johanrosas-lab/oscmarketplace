@@ -1,0 +1,12 @@
+uuid: 8c0d2321-50f7-4cbf-9484-e31400944304
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 35oCh_MCmIM0A3U7zLZHxQ2BUYfboQbPxQX6NfL_yNo
+id: a11y_paragraphs_tabs_panel
+label: 'A11Y Paragraphs Tabs Panel'
+icon_uuid: null
+icon_default: null
+description: 'Create tabs that comply to Accessibility (A11Y) standards and on mobile it becomes an accordion.'
+behavior_plugins: {  }

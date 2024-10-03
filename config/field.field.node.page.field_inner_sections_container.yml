@@ -1,0 +1,96 @@
+uuid: 3f98e959-2125-4b12-aba7-757f1d5b9498
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_inner_sections_container
+    - node.type.page
+    - paragraphs.paragraphs_type.body_and_label
+    - paragraphs.paragraphs_type.our_team_container
+    - paragraphs.paragraphs_type.text_and_icon_container
+    - paragraphs.paragraphs_type.text_and_image_basic
+    - paragraphs.paragraphs_type.text_and_image_solid
+  module:
+    - entity_reference_revisions
+id: node.page.field_inner_sections_container
+field_name: field_inner_sections_container
+entity_type: node
+bundle: page
+label: 'Inner sections container'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      body_and_label: body_and_label
+      our_team_container: our_team_container
+      text_and_icon_container: text_and_icon_container
+      text_and_image_basic: text_and_image_basic
+      text_and_image_solid: text_and_image_solid
+    target_bundles_drag_drop:
+      a11y_paragraphs_tab_content:
+        weight: 19
+        enabled: false
+      a11y_paragraphs_tabs_panel:
+        weight: 20
+        enabled: false
+      a11y_paragraphs_tabs_wrapper:
+        weight: 21
+        enabled: false
+      body_and_label:
+        enabled: true
+        weight: 22
+      contact_section:
+        weight: 23
+        enabled: false
+      hero_section:
+        weight: 24
+        enabled: false
+      icon_image_item:
+        weight: 25
+        enabled: false
+      quote_section:
+        weight: 26
+        enabled: false
+      service_box:
+        weight: 27
+        enabled: false
+      our_team_container:
+        enabled: true
+        weight: 28
+      services_section:
+        weight: 28
+        enabled: false
+      our_team_items:
+        weight: 29
+        enabled: false
+      social_media:
+        weight: 29
+        enabled: false
+      technologies:
+        weight: 30
+        enabled: false
+      technologies_item:
+        weight: 31
+        enabled: false
+      text_and_icon:
+        weight: 32
+        enabled: false
+      text_and_icon_container:
+        enabled: true
+        weight: 33
+      text_and_image:
+        weight: 34
+        enabled: false
+      text_and_image_basic:
+        enabled: true
+        weight: 35
+      text_and_image_solid:
+        enabled: true
+        weight: 36
+field_type: entity_reference_revisions

@@ -1,0 +1,21 @@
+uuid: c2f03985-25da-4853-a244-ecc8832849be
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_team_job
+field_name: field_team_job
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

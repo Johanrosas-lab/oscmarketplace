@@ -1,0 +1,44 @@
+uuid: 542cd2c3-7bf4-4885-bb73-1afaecafc819
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_section.field_heading
+    - field.field.paragraph.hero_section.field_hero_button
+    - field.field.paragraph.hero_section.field_subheading
+    - paragraphs.paragraphs_type.hero_section
+  module:
+    - link
+    - text
+id: paragraph.hero_section.default
+targetEntityType: paragraph
+bundle: hero_section
+mode: default
+content:
+  field_heading:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_hero_button:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_subheading:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

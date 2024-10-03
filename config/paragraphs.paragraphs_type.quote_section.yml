@@ -1,0 +1,10 @@
+uuid: bb2c5437-ddd6-4a33-ab90-5730469b16cc
+langcode: en
+status: true
+dependencies: {  }
+id: quote_section
+label: 'Quote section'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

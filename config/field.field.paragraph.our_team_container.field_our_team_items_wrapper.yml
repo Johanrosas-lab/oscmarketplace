@@ -1,0 +1,88 @@
+uuid: b39b3979-5267-4323-84b8-785176a8c0bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_our_team_items_wrapper
+    - paragraphs.paragraphs_type.our_team_container
+    - paragraphs.paragraphs_type.our_team_items
+  module:
+    - entity_reference_revisions
+id: paragraph.our_team_container.field_our_team_items_wrapper
+field_name: field_our_team_items_wrapper
+entity_type: paragraph
+bundle: our_team_container
+label: 'Our team items wrapper'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      our_team_items: our_team_items
+    target_bundles_drag_drop:
+      a11y_paragraphs_tab_content:
+        weight: 21
+        enabled: false
+      a11y_paragraphs_tabs_panel:
+        weight: 22
+        enabled: false
+      a11y_paragraphs_tabs_wrapper:
+        weight: 23
+        enabled: false
+      body_and_label:
+        weight: 24
+        enabled: false
+      contact_section:
+        weight: 25
+        enabled: false
+      hero_section:
+        weight: 26
+        enabled: false
+      icon_image_item:
+        weight: 27
+        enabled: false
+      our_team_container:
+        weight: 28
+        enabled: false
+      our_team_items:
+        enabled: true
+        weight: 29
+      quote_section:
+        weight: 30
+        enabled: false
+      service_box:
+        weight: 31
+        enabled: false
+      services_section:
+        weight: 32
+        enabled: false
+      social_media:
+        weight: 33
+        enabled: false
+      technologies:
+        weight: 34
+        enabled: false
+      technologies_item:
+        weight: 35
+        enabled: false
+      text_and_icon:
+        weight: 36
+        enabled: false
+      text_and_icon_container:
+        weight: 37
+        enabled: false
+      text_and_image:
+        weight: 38
+        enabled: false
+      text_and_image_basic:
+        weight: 39
+        enabled: false
+      text_and_image_solid:
+        weight: 40
+        enabled: false
+field_type: entity_reference_revisions

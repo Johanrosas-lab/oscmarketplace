@@ -1,0 +1,46 @@
+uuid: a4f76e0c-ea39-4b24-8201-a59cbf83cd62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_and_icon.field_icon_image
+    - field.field.paragraph.text_and_icon.field_icon_label
+    - field.field.paragraph.text_and_icon.field_icon_text
+    - paragraphs.paragraphs_type.text_and_icon
+  module:
+    - svg_image
+    - text
+id: paragraph.text_and_icon.default
+targetEntityType: paragraph
+bundle: text_and_icon
+mode: default
+content:
+  field_icon_image:
+    weight: 0
+    label: hidden
+    settings:
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_icon_label:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_icon_text:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

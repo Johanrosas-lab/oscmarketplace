@@ -1,0 +1,39 @@
+uuid: 53f8e19f-bf2b-4a09-ba78-100da5ad475e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.technologies.field_heading
+    - field.field.paragraph.technologies.field_technologies_container
+    - paragraphs.paragraphs_type.technologies
+  module:
+    - paragraphs
+    - text
+id: paragraph.technologies.default
+targetEntityType: paragraph
+bundle: technologies
+mode: default
+content:
+  field_heading:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_technologies_container:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

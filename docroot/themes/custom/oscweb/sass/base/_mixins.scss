@@ -1,0 +1,75 @@
+/*---------- Breakpoints ----------*/
+
+@mixin wide-screen {
+  @media all and (min-width: 1200px) { @content; }
+}
+@mixin not-wide-screen {
+  @media all and (max-width: 1199px) { @content; }
+}
+@mixin between-desktop-widescreen {
+  @media all and (min-width: 993px) and (max-width: 1199px) { @content; }
+}
+@mixin desktop {
+  @media (min-width: 993px) { @content; }
+}
+@mixin tablet {
+  @media all and (min-width: 768px) and (max-width: 992px) { @content; }
+}
+@mixin mobile {
+  @media all and (max-width: 767px) { @content; }
+}
+@mixin s-mobile {
+  @media all and (max-width: 500px) { @content; }
+}
+@mixin xs-mobile {
+  @media all and (max-width: 380px) { @content; }
+}
+@mixin not-desktop {
+  // includes mobile and small screens
+  @media all and (max-width: 992px) { @content; }
+}
+@mixin not-mobile {
+  // includes desktop and small screens
+  @media all and (min-width: 768px) { @content; }
+}
+
+$medium-desktop: 1055px;
+
+/*---------- Buttons mixins ----------*/
+
+@mixin button-primary {
+  background: $primary-light;
+  color: $primary-dark;
+  font-family: $font-primary;
+  font-size: 1em;
+  padding: 15px 30px;
+  border-radius: 4px;
+  letter-spacing: 2.17px;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+  position: relative;
+  &:hover {
+    background: $primary-red;
+    color: $primary-light;
+    transition: all 0.2s ease-out;
+  }
+}
+
+@mixin button-submit {
+  background: $primary-red;
+  color: $primary-light;
+  font-family: $font-primary;
+  font-size: 1em;
+  padding: 15px 30px;
+  border-radius: 4px;
+  letter-spacing: 2.17px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.2s ease-out;
+  position: relative;
+  &:hover {
+    background: $secondary-red;
+    color: $primary-light;
+    transition: all 0.2s ease-out;
+  }
+}

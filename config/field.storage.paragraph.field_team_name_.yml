@@ -1,0 +1,21 @@
+uuid: f3344d08-0c14-49d4-ac49-f00bf20ca421
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_team_name_
+field_name: field_team_name_
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

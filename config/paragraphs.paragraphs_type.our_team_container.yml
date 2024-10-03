@@ -1,0 +1,10 @@
+uuid: b6ee48ea-0915-4718-bb44-7b255d59d8a7
+langcode: en
+status: true
+dependencies: {  }
+id: our_team_container
+label: 'Our team container'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,19 @@
+uuid: 121cf53d-de00-4950-a275-8cb35122f4fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_label
+    - paragraphs.paragraphs_type.text_and_image_basic
+id: paragraph.text_and_image_basic.field_text_label
+field_name: field_text_label
+entity_type: paragraph
+bundle: text_and_image_basic
+label: 'Text label'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

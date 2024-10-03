@@ -1,0 +1,22 @@
+uuid: 513395f1-04df-41c1-9158-03b1332780dc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - osc_market_place
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: osc_market_place_local_tasks
+theme: osc_market_place
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

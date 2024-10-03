@@ -1,0 +1,27 @@
+uuid: 45cf1067-c6b3-4070-9fa4-7930328d6a4d
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_layout_adjustment
+field_name: field_layout_adjustment
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: image-right
+      label: 'Image right, Text left'
+    -
+      value: image-left
+      label: 'Image left, Text right'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,64 @@
+uuid: 825e5488-351f-4ee1-916f-f5c13060c5ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_social_container
+    - paragraphs.paragraphs_type.contact_section
+    - paragraphs.paragraphs_type.social_media
+  module:
+    - entity_reference_revisions
+id: paragraph.contact_section.field_social_container
+field_name: field_social_container
+entity_type: paragraph
+bundle: contact_section
+label: 'Social container'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      social_media: social_media
+    target_bundles_drag_drop:
+      a11y_paragraphs_tab_content:
+        weight: 13
+        enabled: false
+      a11y_paragraphs_tabs_panel:
+        weight: 14
+        enabled: false
+      a11y_paragraphs_tabs_wrapper:
+        weight: 15
+        enabled: false
+      contact_section:
+        weight: 16
+        enabled: false
+      hero_section:
+        weight: 17
+        enabled: false
+      quote_section:
+        weight: 18
+        enabled: false
+      service_box:
+        weight: 19
+        enabled: false
+      services_section:
+        weight: 20
+        enabled: false
+      social_media:
+        enabled: true
+        weight: 21
+      technologies:
+        weight: 22
+        enabled: false
+      technologies_item:
+        weight: 23
+        enabled: false
+      text_and_image:
+        weight: 24
+        enabled: false
+field_type: entity_reference_revisions

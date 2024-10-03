@@ -1,0 +1,44 @@
+uuid: b99a2446-4f76-4696-9ca3-02ae7e6a94e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.internal_page.body
+    - field.field.node.internal_page.field_inner_sections_container
+    - field.field.node.internal_page.field_page_heading
+    - node.type.internal_page
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.internal_page.default
+targetEntityType: node
+bundle: internal_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_inner_sections_container:
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_page_heading:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  links: true

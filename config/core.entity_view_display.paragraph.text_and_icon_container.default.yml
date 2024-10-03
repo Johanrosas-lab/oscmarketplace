@@ -1,0 +1,24 @@
+uuid: b53f42ba-2491-40c5-b3fb-f91bcc146417
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_and_icon_container.field_text_and_icon_wrapper
+    - paragraphs.paragraphs_type.text_and_icon_container
+  module:
+    - entity_reference_revisions
+id: paragraph.text_and_icon_container.default
+targetEntityType: paragraph
+bundle: text_and_icon_container
+mode: default
+content:
+  field_text_and_icon_wrapper:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

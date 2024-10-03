@@ -1,0 +1,55 @@
+uuid: f48ae217-0a43-44fc-8a19-d49b530312f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_technologies_container
+    - paragraphs.paragraphs_type.technologies
+    - paragraphs.paragraphs_type.technologies_item
+  module:
+    - entity_reference_revisions
+id: paragraph.technologies.field_technologies_container
+field_name: field_technologies_container
+entity_type: paragraph
+bundle: technologies
+label: 'Technologies container'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      technologies_item: technologies_item
+    target_bundles_drag_drop:
+      a11y_paragraphs_tab_content:
+        weight: 10
+        enabled: false
+      a11y_paragraphs_tabs_panel:
+        weight: 11
+        enabled: false
+      a11y_paragraphs_tabs_wrapper:
+        weight: 12
+        enabled: false
+      hero_section:
+        weight: 13
+        enabled: false
+      service_box:
+        weight: 14
+        enabled: false
+      services_section:
+        weight: 15
+        enabled: false
+      technologies:
+        weight: 16
+        enabled: false
+      technologies_item:
+        enabled: true
+        weight: 17
+      text_and_image:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions

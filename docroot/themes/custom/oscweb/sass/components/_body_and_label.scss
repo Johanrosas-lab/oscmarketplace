@@ -1,0 +1,19 @@
+.paragraph--type--body-and-label{
+  margin: 0 75px 30px;
+  padding: 57px;
+  background-color: $background-gray;
+  @include mobile{
+    margin: 0 30px;
+  }
+  .field--name-field-body-label{
+    margin-top: 0;
+  }
+  .field--name-field-horizontal-img{
+    margin-top: 30px;
+    text-align: center;
+    img{
+      width: 50%;
+      height: auto;
+    }
+  }
+}

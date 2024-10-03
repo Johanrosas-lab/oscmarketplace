@@ -1,0 +1,27 @@
+{
+  "name": "oscweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  },
+  "author": "DPB",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-shell": "^0.5.2",
+    "sassdoc": "^2.5.0"
+  },
+  "dependencies": {
+    "gulp-csslint": "^1.0.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-phpcs": "^1.3.0",
+    "gulp-phplint": "^0.3.2",
+    "gulp-sass-lint": "^1.3.2",
+    "gulp-sourcemaps": "^1.9.1"
+  }
+}

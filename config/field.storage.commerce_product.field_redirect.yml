@@ -1,0 +1,19 @@
+uuid: 0c7980f2-928d-4ad2-a092-9e0a85b3be0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - link
+id: commerce_product.field_redirect
+field_name: field_redirect
+entity_type: commerce_product
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

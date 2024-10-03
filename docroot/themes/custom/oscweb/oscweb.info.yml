@@ -1,0 +1,22 @@
+name: Outer Space Coders theme
+type: theme
+description: 'A base theme with sensible default CSS classes added. Learn how to use Classy as a base theme in the <a href="https://www.drupal.org/docs/8/theming">Drupal 8 Theming Guide</a>.'
+package: Core
+version: VERSION
+core_version_requirement: ^8 || ^9
+base theme: classy
+hidden: false
+
+libraries:
+  - oscweb/global
+
+stylesheets-remove:
+
+regions:
+  header: Header
+  primary_menu: Primary menu
+  secondary_menu: Secondary menu
+  breadcrumb: Breadcrumb
+  content_top: Content Top
+  content: Content
+  footer: Footer

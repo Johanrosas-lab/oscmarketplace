@@ -1,0 +1,21 @@
+uuid: 935a569b-060f-4c00-b7e4-950e827b5bae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_address
+    - paragraphs.paragraphs_type.contact_section
+  module:
+    - text
+id: paragraph.contact_section.field_address
+field_name: field_address
+entity_type: paragraph
+bundle: contact_section
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

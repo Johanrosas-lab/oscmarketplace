@@ -1,0 +1,9 @@
+products.add_to_cart:
+  title: 'products add_to_cart'
+  description: 'products add_to_cart.'
+  restrict access: TRUE
+
+products.buy_now:
+  title: 'products buy_now'
+  description: 'Access to see the '
+  restrict access: TRUE

@@ -1,0 +1,15 @@
+uuid: f538a4f6-5683-4934-b4cb-2810c0b3a4b8
+langcode: en
+status: true
+dependencies: {  }
+name: text_and_image_515px_
+label: 'Text and Image(515px) '
+effects:
+  ffcbfdfc-cbc4-4345-8e96-8033b4027748:
+    uuid: ffcbfdfc-cbc4-4345-8e96-8033b4027748
+    id: image_scale
+    weight: 1
+    data:
+      width: 515
+      height: 515
+      upscale: false

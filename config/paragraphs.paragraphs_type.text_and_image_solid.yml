@@ -1,0 +1,10 @@
+uuid: 74939b38-1072-4a8e-9b34-704d5e329e75
+langcode: en
+status: true
+dependencies: {  }
+id: text_and_image_solid
+label: 'Text and image solid'
+icon_uuid: null
+icon_default: null
+description: 'Displays text and image with solid background color'
+behavior_plugins: {  }

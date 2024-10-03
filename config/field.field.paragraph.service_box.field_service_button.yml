@@ -1,0 +1,23 @@
+uuid: 974c14a6-bfcd-4442-ac60-a11b4048f312
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_service_button
+    - paragraphs.paragraphs_type.service_box
+  module:
+    - link
+id: paragraph.service_box.field_service_button
+field_name: field_service_button
+entity_type: paragraph
+bundle: service_box
+label: 'Service button'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

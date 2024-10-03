@@ -1,0 +1,22 @@
+uuid: ac2d1669-1e8f-4b5c-ba4f-26032981225b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - osc_market_place
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: osc_market_place_breadcrumbs
+theme: osc_market_place
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

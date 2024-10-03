@@ -1,0 +1,21 @@
+uuid: fa8a7290-0c23-4678-8cfa-b88c1f319038
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: hqKgE6LfWqGfNJJK8yzOQF-eFkhZTWK3Kz_9xcGyK5c
+id: paragraph.field_a11y_para_tabs_text_area
+field_name: field_a11y_para_tabs_text_area
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

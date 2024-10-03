@@ -1,0 +1,46 @@
+uuid: 206334d5-9f46-4878-98e0-3547718d478c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.body_and_label.field_basic_body
+    - field.field.paragraph.body_and_label.field_body_label
+    - field.field.paragraph.body_and_label.field_horizontal_img
+    - paragraphs.paragraphs_type.body_and_label
+  module:
+    - svg_image
+    - text
+id: paragraph.body_and_label.default
+targetEntityType: paragraph
+bundle: body_and_label
+mode: default
+content:
+  field_basic_body:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_body_label:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_horizontal_img:
+    weight: 2
+    label: above
+    settings:
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

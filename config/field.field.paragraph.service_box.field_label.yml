@@ -1,0 +1,21 @@
+uuid: 605b3e7e-0d47-45a0-b9ba-e13eee585cbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label
+    - paragraphs.paragraphs_type.service_box
+  module:
+    - text
+id: paragraph.service_box.field_label
+field_name: field_label
+entity_type: paragraph
+bundle: service_box
+label: Label
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

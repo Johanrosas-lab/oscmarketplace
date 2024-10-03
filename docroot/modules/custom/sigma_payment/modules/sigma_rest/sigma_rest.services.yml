@@ -1,0 +1,3 @@
+services:
+  sigma_rest.transaction:
+    class: Drupal\sigma_rest\Services\TransactionService

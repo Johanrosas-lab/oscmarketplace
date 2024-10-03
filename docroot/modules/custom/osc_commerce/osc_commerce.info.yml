@@ -1,0 +1,9 @@
+name: "OSC Commerce Settings"
+type: module
+description: "Cart for OSC marketplace"
+package: Custom
+core_version_requirement: ^8 || ^9
+version: 8.x
+dependencies:
+  - block
+  - commerce

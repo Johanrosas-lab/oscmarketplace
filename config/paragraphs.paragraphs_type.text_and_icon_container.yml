@@ -1,0 +1,10 @@
+uuid: d13ec499-dad4-4168-bc29-337315e615cc
+langcode: en
+status: true
+dependencies: {  }
+id: text_and_icon_container
+label: 'Text and icon container'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

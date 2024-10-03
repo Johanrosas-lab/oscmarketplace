@@ -1,0 +1,19 @@
+uuid: 8c42f5bb-2c77-4da7-b5a1-dedbaecb383f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_contact_label
+    - paragraphs.paragraphs_type.contact_section
+id: paragraph.contact_section.field_contact_label
+field_name: field_contact_label
+entity_type: paragraph
+bundle: contact_section
+label: 'Contact label'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

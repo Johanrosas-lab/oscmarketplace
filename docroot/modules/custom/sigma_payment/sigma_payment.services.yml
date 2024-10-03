@@ -1,0 +1,14 @@
+services:
+  sigma_payment.config_onsite:
+    class: Drupal\sigma_payment\Services\ConfigOnsite
+  sigma_payment.customer_manager:
+    class: Drupal\sigma_payment\Services\SigmaCustomerManager
+  sigma_payment.card_manager:
+    class: Drupal\sigma_payment\Services\SigmaCardManager
+  sigma_payment.transaction_manager:
+    class: Drupal\sigma_payment\Services\SigmaTransactionManager
+  sigma_payment.order_complete:
+    class: Drupal\sigma_payment\EventSubscriber\OrderCompleteEventSubscriber
+    arguments: ['@entity_type.manager', '@event_dispatcher']
+    tags:
+      - { name: event_subscriber }

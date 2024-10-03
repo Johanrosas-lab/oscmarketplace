@@ -1,0 +1,10 @@
+uuid: 57de5712-59d8-4aee-ae8a-e6e101f3c94c
+langcode: en
+status: true
+dependencies: {  }
+id: body_and_label
+label: 'Body and label'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

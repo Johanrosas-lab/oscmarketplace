@@ -1,0 +1,10 @@
+uuid: 9dd92379-d00e-4591-b98c-f6b8283a5367
+langcode: en
+status: true
+dependencies: {  }
+id: service_box
+label: 'Service box'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

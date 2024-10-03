@@ -1,0 +1,47 @@
+uuid: 7e5e5274-6c2a-4b3a-bd06-70657e565005
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.our_team_container.field_our_team_items_wrapper
+    - field.field.paragraph.our_team_container.field_our_team_label
+    - field.field.paragraph.our_team_container.field_our_team_subheading
+    - paragraphs.paragraphs_type.our_team_container
+  module:
+    - paragraphs
+id: paragraph.our_team_container.default
+targetEntityType: paragraph
+bundle: our_team_container
+mode: default
+content:
+  field_our_team_items_wrapper:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_our_team_label:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_our_team_subheading:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

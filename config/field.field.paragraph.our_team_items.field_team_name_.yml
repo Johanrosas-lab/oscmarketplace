@@ -1,0 +1,19 @@
+uuid: 35b6f11d-6693-4eee-b6e0-cfec71b65a72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_team_name_
+    - paragraphs.paragraphs_type.our_team_items
+id: paragraph.our_team_items.field_team_name_
+field_name: field_team_name_
+entity_type: paragraph
+bundle: our_team_items
+label: 'Team name '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

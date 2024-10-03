@@ -1,0 +1,44 @@
+uuid: c579acc9-a8cf-48cc-a9bb-2fdbdae0a22f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.technologies_item.field_tech_feature
+    - field.field.paragraph.technologies_item.field_tech_logo
+    - field.field.paragraph.technologies_item.field_tech_name
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.technologies_item
+  module:
+    - svg_image
+id: paragraph.technologies_item.default
+targetEntityType: paragraph
+bundle: technologies_item
+mode: default
+content:
+  field_tech_feature:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_tech_logo:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_tech_name:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

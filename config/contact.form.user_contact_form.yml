@@ -1,0 +1,12 @@
+uuid: b6307009-37b9-4bd8-9d6b-30d19096455c
+langcode: en
+status: true
+dependencies: {  }
+id: user_contact_form
+label: 'User contact form'
+recipients:
+  - '''info@outerspacecoders.com'''
+reply: ''
+weight: 0
+message: 'Message sent! We will respond shortly.'
+redirect: '/#'

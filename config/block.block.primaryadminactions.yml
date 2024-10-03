@@ -1,0 +1,18 @@
+uuid: a09fac5d-1010-4883-a8a6-bf1d77fb4190
+langcode: en
+status: true
+dependencies:
+  theme:
+    - oscweb
+id: primaryadminactions
+theme: oscweb
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

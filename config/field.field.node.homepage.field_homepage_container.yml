@@ -1,0 +1,74 @@
+uuid: 719a2190-00f4-4873-9819-b4ee666de372
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_homepage_container
+    - node.type.homepage
+    - paragraphs.paragraphs_type.contact_section
+    - paragraphs.paragraphs_type.hero_section
+    - paragraphs.paragraphs_type.quote_section
+    - paragraphs.paragraphs_type.services_section
+    - paragraphs.paragraphs_type.technologies
+    - paragraphs.paragraphs_type.text_and_image
+  module:
+    - entity_reference_revisions
+id: node.homepage.field_homepage_container
+field_name: field_homepage_container
+entity_type: node
+bundle: homepage
+label: 'Homepage container'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      hero_section: hero_section
+      quote_section: quote_section
+      contact_section: contact_section
+      services_section: services_section
+      technologies: technologies
+      text_and_image: text_and_image
+    target_bundles_drag_drop:
+      a11y_paragraphs_tab_content:
+        weight: 11
+        enabled: false
+      a11y_paragraphs_tabs_panel:
+        weight: 12
+        enabled: false
+      a11y_paragraphs_tabs_wrapper:
+        weight: 13
+        enabled: false
+      hero_section:
+        enabled: true
+        weight: 14
+      quote_section:
+        enabled: true
+        weight: 15
+      contact_section:
+        enabled: true
+        weight: 16
+      service_box:
+        weight: 16
+        enabled: false
+      services_section:
+        enabled: true
+        weight: 17
+      technologies:
+        enabled: true
+        weight: 18
+      technologies_item:
+        weight: 19
+        enabled: false
+      text_and_image:
+        enabled: true
+        weight: 20
+      social_media:
+        weight: 21
+        enabled: false
+field_type: entity_reference_revisions

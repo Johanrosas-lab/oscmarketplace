@@ -1,0 +1,12 @@
+global:
+  css:
+    theme:
+      css/styles.css: {}
+  js:
+    js/scripts.js: {}
+    js/vanta.waves.min.js: {}
+    js/three.r95.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings

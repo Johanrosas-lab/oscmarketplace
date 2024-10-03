@@ -1,0 +1,10 @@
+name: Sigma Payment REST
+type: module
+description: 'This module connect with SIGMA SDK and SIGMA Gateway by API'
+core_version_requirement: ^8.7.7 || ^9
+dependencies:
+  - commerce:commerce
+  - commerce:commerce_order
+  - commerce:commerce_product
+  - sigma_payment
+package: 'OSC'

@@ -1,0 +1,60 @@
+uuid: c4c2f80a-a214-4d30-b819-d53701b9e6fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.service_box.field_label
+    - field.field.paragraph.service_box.field_service_button
+    - field.field.paragraph.service_box.field_service_content
+    - field.field.paragraph.service_box.field_service_icon
+    - paragraphs.paragraphs_type.service_box
+  module:
+    - link
+    - svg_image
+    - text
+id: paragraph.service_box.default
+targetEntityType: paragraph
+bundle: service_box
+mode: default
+content:
+  field_label:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_service_button:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_service_content:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_service_icon:
+    weight: 0
+    label: hidden
+    settings:
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

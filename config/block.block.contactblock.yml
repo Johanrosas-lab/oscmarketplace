@@ -1,0 +1,31 @@
+uuid: 298b2ec0-9b0f-4b4a-b2f0-a816577e0ff6
+langcode: en
+status: false
+dependencies:
+  config:
+    - contact.form.user_contact_form
+  module:
+    - contact_block
+    - node
+  theme:
+    - oscweb
+id: contactblock
+theme: oscweb
+region: content
+weight: -1
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact block'
+  provider: contact_block
+  label_display: '0'
+  contact_form: user_contact_form
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      homepage: homepage
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

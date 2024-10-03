@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * Implements hook_form_BASE_FORM_ID_alter().
+ */
+function sigma_payment_form_commerce_payment_method_add_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  // Add card name field in payment method form.
+  $form['payment_method']['payment_details']['card_name'] = [
+    '#type' => 'textfield',
+    '#title' => t('Nombre en la Tarjeta'),
+    '#required' => TRUE,
+    '#weight' => -1
+  ];
+}
+
+
+
+/**
+ * Implements hook_form_BASE_FORM_ID_alter().
+ */
+function sigma_payment_form_commerce_checkout_flow_multistep_default_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  // Add card name field in payment method form.
+
+  	if ( isset($form['payment_information']) ){
+  		    $form['payment_information']['add_payment_method']['payment_details']['card_name'] = [
+			    '#type' => 'textfield',
+			    '#title' => t('Nombre en la Tarjeta'),
+			    '#required' => TRUE,
+			    '#weight' => -1
+			];
+  	}
+
+
+}
+

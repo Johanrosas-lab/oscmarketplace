@@ -1,0 +1,33 @@
+uuid: ee5c4852-3dd1-420f-91b4-20c609b4ee75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.technologies.field_heading
+    - field.field.paragraph.technologies.field_technologies_container
+    - paragraphs.paragraphs_type.technologies
+  module:
+    - entity_reference_revisions
+    - text
+id: paragraph.technologies.default
+targetEntityType: paragraph
+bundle: technologies
+mode: default
+content:
+  field_heading:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_technologies_container:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

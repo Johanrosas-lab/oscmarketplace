@@ -1,0 +1,46 @@
+uuid: 2d673335-d5d1-4625-a76b-f7a0ffea5a17
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_and_image.field_body_text
+    - field.field.paragraph.text_and_image.field_image_right_
+    - field.field.paragraph.text_and_image.field_label
+    - image.style.text_and_image_515px_
+    - paragraphs.paragraphs_type.text_and_image
+  module:
+    - svg_image
+    - text
+id: paragraph.text_and_image.default
+targetEntityType: paragraph
+bundle: text_and_image
+mode: default
+content:
+  field_body_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image_right_:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: text_and_image_515px_
+      image_link: ''
+      svg_render_as_image: true
+      svg_attributes:
+        width: null
+        height: null
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_label:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

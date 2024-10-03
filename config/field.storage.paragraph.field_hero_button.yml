@@ -1,0 +1,19 @@
+uuid: 38aba9eb-46d5-4882-9c3f-dab7bc1f8e31
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.field_hero_button
+field_name: field_hero_button
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

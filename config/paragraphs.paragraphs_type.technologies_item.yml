@@ -1,0 +1,10 @@
+uuid: 2da2a68e-090e-4002-8477-6f4f780d9360
+langcode: en
+status: true
+dependencies: {  }
+id: technologies_item
+label: 'Technologies item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

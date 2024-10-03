@@ -1,0 +1,19 @@
+uuid: 892ebd65-baba-4881-982a-c0ea48efa513
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body_label
+    - paragraphs.paragraphs_type.body_and_label
+id: paragraph.body_and_label.field_body_label
+field_name: field_body_label
+entity_type: paragraph
+bundle: body_and_label
+label: 'body label'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

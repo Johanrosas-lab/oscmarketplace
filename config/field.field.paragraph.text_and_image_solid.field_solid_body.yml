@@ -1,0 +1,21 @@
+uuid: f2c93c31-3880-43ac-8541-ef626f61156a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_solid_body
+    - paragraphs.paragraphs_type.text_and_image_solid
+  module:
+    - text
+id: paragraph.text_and_image_solid.field_solid_body
+field_name: field_solid_body
+entity_type: paragraph
+bundle: text_and_image_solid
+label: 'Solid body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

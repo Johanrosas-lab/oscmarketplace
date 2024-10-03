@@ -1,0 +1,15 @@
+products.add_to_cart:
+  path: '/products/add-to-cart/{productId}'
+  defaults:
+    _controller: Drupal\osc_commerce\Controller\CartController::add_to_cart
+  requirements:
+    _permission: 'products.add_to_cart'
+    productId: \d+
+
+products.buy_now:
+  path: '/products/buy-now/{productId}'
+  defaults:
+    _controller: Drupal\osc_commerce\Controller\CartController::buy_now
+  requirements:
+    _permission: 'products.buy_now'
+    productId: \d+

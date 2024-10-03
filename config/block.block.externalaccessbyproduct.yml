@@ -1,0 +1,27 @@
+uuid: f944fc30-4cc9-439d-983f-8cbb0e36fbff
+langcode: en
+status: true
+dependencies:
+  module:
+    - osc_commerce
+    - system
+  theme:
+    - oscweb
+id: externalaccessbyproduct
+theme: oscweb
+region: content
+weight: -2
+provider: null
+plugin: cart_block
+settings:
+  id: cart_block
+  label: 'External access by product'
+  provider: osc_commerce
+  label_display: visible
+  my_block_settings: null
+visibility:
+  request_path:
+    id: request_path
+    pages: 'product/*'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,10 @@
+uuid: a0557074-534f-47ef-bcc8-ce6f5b91eae6
+langcode: en
+status: true
+dependencies: {  }
+id: text_and_icon
+label: 'Text and Icon'
+icon_uuid: null
+icon_default: null
+description: 'Displays logo/icons and text as columns'
+behavior_plugins: {  }

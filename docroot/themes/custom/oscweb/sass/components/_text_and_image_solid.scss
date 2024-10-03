@@ -1,0 +1,34 @@
+.paragraph--type--text-and-image-solid{
+  margin: 95px 75px;
+  display: flex;
+  @include mobile{
+    margin: 95px 30px;
+    flex-direction: column;
+  }
+  .solid-text-container{
+    width: 50%;
+    background-color: $primary-dark;
+    color: $primary-light;
+    padding: 57px;
+    @include mobile{
+      width: initial;
+    }
+    .field--name-field-solid-label{
+      margin-top: 0;
+    }
+  }
+  .solid-image-container{
+    width: 50%;
+    @include mobile{
+      width: 100%;
+    }
+    .field--name-field-solid-image{
+      width: 100%;
+      height: 100%;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

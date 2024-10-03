@@ -1,0 +1,19 @@
+uuid: 99674110-e5fb-4b08-9e87-0ab6f79634f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_our_team_subheading
+    - paragraphs.paragraphs_type.our_team_container
+id: paragraph.our_team_container.field_our_team_subheading
+field_name: field_our_team_subheading
+entity_type: paragraph
+bundle: our_team_container
+label: 'Our team subheading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

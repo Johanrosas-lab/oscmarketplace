@@ -1,0 +1,28 @@
+
+/*----------  font-face  ----------*/
+
+//Lato
+
+@font-face {
+  font-family: 'lato';
+  src: url('../fonts/Lato/Lato-Regular.woff') format('woff'),
+       url('../fonts/Lato/Lato-Regular.woff2')  format('woff2'),
+       url('../fonts/Lato/Lato-Regular.ttf')  format('truetype'),
+       url('../fonts/Lato/Lato-Regular.eot') format('eot'),
+}
+
+@font-face {
+  font-family: 'lato-light';
+  src: url('../fonts/Lato/Lato-Light.woff') format('woff'),
+       url('../fonts/Lato/Lato-Light.woff2')  format('woff2'),
+       url('../fonts/Lato/Lato-Light.ttf')  format('truetype'),
+       url('../fonts/Lato/Lato-Light.eot') format('eot'),
+}
+
+@font-face {
+  font-family: 'lato-bold';
+  src: url('../fonts/Lato/Lato-Bold.woff') format('woff'),
+       url('../fonts/Lato/Lato-Bold.woff2')  format('woff2'),
+       url('../fonts/Lato/Lato-Bold.ttf')  format('truetype'),
+       url('../fonts/Lato/Lato-Bold.eot') format('eot'),
+}

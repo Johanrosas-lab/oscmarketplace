@@ -1,0 +1,92 @@
+html {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiasdedeed;
+  overflow-x: hidden;
+}
+
+.page-node-type-page{
+  main{
+    .field--name-field-page-heading{
+      padding: 0 75px;
+      margin: 60px 0;
+      @include mobile{
+        padding: 0 30px;
+      }
+    }
+  }
+}
+.page-node-type-internal-page{
+  main{
+    .field--name-field-page-heading{
+      padding: 0 75px;
+      margin: 124px 0 60px;
+      @include mobile{
+        padding: 0 30px;
+      }
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4{
+  margin: 0;
+}
+
+h1{
+  font-family: $font-primary-light;
+  font-size: 60px;
+  color: $primary-light;
+  font-weight: 100;
+  text-transform: uppercase;
+  @include mobile{
+    font-size: 45px;
+  }
+}
+h2{
+  font-size: 30px;
+  font-family: $font-primary-bold;
+  color: $primary-dark;
+}
+h3{
+  font-size: 30px;
+  font-family: $font-primary-bold;
+  margin-bottom: 39px;
+}
+
+h4{
+  font-size: 30px;
+  font-family: $font-primary-light;
+  color: $primary-light;
+  @include mobile{
+    font-size: 25px;
+  }
+}
+h5{
+  font-size: 30px;
+  margin: 40px 0;
+  font-weight: normal;
+  font-family: $font-primary;
+}
+
+
+p{
+  font-family: $font-primary;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+ul:not(.toolbar-menu){
+  li{
+    font-family: $font-primary;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+}
